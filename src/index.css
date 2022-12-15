@@ -1,27 +1,67 @@
 body {
-  margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+.button-container {
+  display: grid;
+  grid-template-rows: 16% 16% 16% 16% 16% 16%;
+}
+
+.calc-section {
+  text-align: right;
+  background-color: #858693;
+  padding: 25px 10px 0 0;
+  color: white;
+  border: 1px solid #d1d1d1;
+}
+
+.button-container-row {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.third-row-bottom {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+}
+
+.orange-button {
+  background-color: #f5903f;
+  border: 1px solid #d1d1d1;
+  cursor: pointer;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.orange-button:hover {
+  background-color: #f88527;
+}
+
+.orange-button:active {
+  background-color: #fc7b12;
+}
+
+.gray-button {
+  background-color: #e1e1e0;
+  border: 1px solid #d1d1d1;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gray-button:hover {
+  background-color: #d6d6d6;
+}
+
+.gray-button:active {
+  background-color: #c9c9c9;
 }
