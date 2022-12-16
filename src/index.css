@@ -40,11 +40,11 @@ body {
 }
 
 .orange-button:hover {
-  background-color: #f88527;
+  background-color: #fc7b12;
 }
 
 .orange-button:active {
-  background-color: #fc7b12;
+  background-color: rgb(255, 115, 0);
 }
 
 .gray-button {
@@ -63,5 +63,5 @@ body {
 }
 
 .gray-button:active {
-  background-color: #c9c9c9;
+  background-color: #afafaf;
 }
