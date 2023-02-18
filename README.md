@@ -26,7 +26,7 @@
 
 # 📖 [Math Magician] 
 
-> This is a Single page application (SPA) that alows a user make simple mathematics calculation and also Read random  math related quote.
+> This is a Single page application (SPA) that alows a user make simple mathematics calculation and also Read random  math related quote that wil help in getting understanding on mathematics fully.
 
 **[ Math Magician]** 
 
@@ -87,7 +87,9 @@ You can deploy this project using:
 👤 **Joseph David**
 
 - GitHub: [@jodavid444](https://github.com/jodavid444)
+
 - Twitter: [@jodavid444dave](https://twitter.com/jodavid444dave)
+
 - LinkedIn: [LinkedIn](https://linkedin.com/in/joseph-david-01a8a5243)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
